@@ -10,7 +10,7 @@
       "src": "build_files.sh",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "hello/static"
+        "distDir": "staticfiles_build"
       }
     }
   ],
@@ -23,6 +23,5 @@
       "src": "/(.*)",
       "dest": "isitChristmas/wsgi.py"
     }
-  ],
-  "outputDirectory": "hello/static"
+  ]
 }
