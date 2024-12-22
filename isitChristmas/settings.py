@@ -123,11 +123,6 @@ STATIC_URL = '/static/'
 # Example of STATIC_ROOT
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-# Example of STATICFILES_DIRS
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
-    # Add other directories here, but NOT STATIC_ROOT
-]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
